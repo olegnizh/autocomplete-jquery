@@ -1,0 +1,46 @@
+body{
+	margin: 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.container{
+	width: 1024px;
+	margin: 0 auto;
+}
+h3{
+	font: bold 23px/40px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 5px 0;
+	color: #34495e;
+}	
+form input{
+	color: #34495e;
+	border: 2px solid #bdc3c7;
+	border-radius: 6px;
+	padding: 8px 12px;
+}
+ul.ui-autocomplete{
+	position: absolute!important;
+	cursor: default;
+	list-style: none;
+	padding: 2px;
+	float: left;
+	background: #2ECC71;
+	color: #fff;
+	border: 1px solid #aaa;
+}
+.ui-helper-hidden-accessible{
+	display: none;
+}
+ul.ui-autocomplete li{
+	padding: 5px;
+}
+ul.ui-autocomplete li.ui-state-focus{
+	background: #27AE60;
+}	
+
+.ui-autocomplete {
+    max-height: 200px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+}
