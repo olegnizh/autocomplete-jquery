@@ -1,0 +1,6 @@
+txt import to MySql
+
+name db - blanks
+
+UTF8
+
